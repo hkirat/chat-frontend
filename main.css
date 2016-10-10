@@ -1,0 +1,129 @@
+.main-window {
+	width: 310px;
+	margin: 0 auto;
+	overflow: hidden;
+	border: 0px solid white;
+	border-width: 50px 15px;
+    outline-style: solid;
+    outline-color: #45a4f0;
+	color: #474c57;
+	font-family: 'Avenir Next', Helvetica;
+}
+
+.messages {
+	border: 1px solid #45a4f0;
+	overflow-y: auto;
+	border-width: 2px 2px;
+	height: 460px;
+	overflow-x: hidden;
+	width: 100%;
+	position: relative;
+	border-radius: 2px 2px;
+	background: #fff;
+}
+
+.messages-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	padding: 15px 25px 60px;
+}
+
+.chat-message {
+	position: relative;
+	font-size: 0;
+	margin-bottom: 10px;
+}
+
+.box {
+	color:white;
+	display: inline-block;
+	font-size: 14px;
+	max-width: 350px;
+	background: #5d349f;
+	padding: 8px 14px;
+	border-radius: 18px;
+	min-width: 0;
+}
+
+.chat-message-self.chat-message-merge-middle .box {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.chat-message-self.chat-message-merge-end .box {
+	border-top-right-radius: 0;
+}
+
+.chat-message-self {
+	text-align: right;
+}
+
+.chat-message-self .box,
+.chat-message-effect .box { 
+	background: #00acc4;
+	color: #fff;
+	text-align: left;
+}
+
+
+.bar {
+	position: relative;
+	background:#32A8E6;
+}
+
+.container-chat {
+	position: relative;
+	z-index: 2;
+	padding: 0.5em 0;
+	border-radius: 0 0 2px 2px;
+	color: #fff;
+}
+
+.chat-input {
+	outline : none;
+	margin-left: 10px;
+	margin-right: 10px;
+	overflow: hidden;
+	min-height: 38px;
+	-webkit-flex: 1;
+	flex: 1;
+	font-size: 14px;
+	padding: 10px 0 7px;
+	cursor: text;
+}
+
+.chat-input:empty::before {
+	content: "Message Here..";
+	color: #2D8ED5;
+}
+
+.content {
+	text-align: left;
+}
+
+.container {
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.topper {
+	font-size: 1.5em;
+	color: #6fafdd;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,400,600,800);
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #2d3e50;
+	color: #1bbc9b;
+	font-family: 'Raleway', Helvetica, sans-serif;
+}
