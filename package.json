@@ -1,0 +1,22 @@
+{
+  "name": "mobiledebugger-server",
+  "version": "1.0.0",
+  "description": "Mobile Debugger Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/hkirat/mobiledebugger-server"
+  },
+  "keywords": [
+    "mobile"
+  ],
+  "author": "harkirat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.0.1"
+  }
+}
